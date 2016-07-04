@@ -9,6 +9,7 @@ CREATE TABLE country
   updated timestamp with time zone DEFAULT now(),
   updated_by uuid,
   active boolean NOT NULL DEFAULT true,
-  CONSTRAINT country_pkey PRIMARY KEY (country_id)
+  CONSTRAINT country_pkey PRIMARY KEY (country_id),
+  CONSTRAINT country_name_key UNIQUE (name)
 );
 
