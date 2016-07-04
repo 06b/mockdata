@@ -1,0 +1,98 @@
+{
+  "num_rows": 1000,
+  "file_format": "csv",
+  "name": "product_availability1",
+  "include_header": true,
+  "append_dataset": "product",
+  "columns": [
+    {
+      "name": "product_id",
+      "type": "Dataset Column",
+      "dataset": "product",
+      "column": "product_id",
+      "selectionStyle": "random",
+      "formula": ""
+    },
+    {
+      "name": "available",
+      "type": "Boolean",
+      "formula": ""
+    },
+    {
+      "name": "always_available",
+      "type": "Boolean",
+      "formula": ""
+    },
+    {
+      "name": "stocks",
+      "type": "Number",
+      "min": 1,
+      "max": 10,
+      "decimals": 0,
+      "formula": ""
+    },
+    {
+      "name": "available_from",
+      "type": "Date",
+      "min": "6/29/2015",
+      "max": "6/29/2016",
+      "format": "%-m/%-d/%Y",
+      "formula": ""
+    },
+    {
+      "name": "available_until",
+      "type": "Date",
+      "min": "6/29/2015",
+      "max": "6/29/2016",
+      "format": "%-m/%-d/%Y",
+      "formula": ""
+    },
+    {
+      "name": "available_day",
+      "type": "Blank",
+      "formula": ""
+    },
+    {
+      "name": "open_time",
+      "type": "Time",
+      "min": "12:00 AM",
+      "max": "11:59 PM",
+      "format": "%-H:%M",
+      "formula": ""
+    },
+    {
+      "name": "close_time",
+      "type": "Time",
+      "min": "12:00 AM",
+      "max": "11:59 PM",
+      "format": "%-H:%M",
+      "formula": ""
+    },
+    {
+      "name": "created",
+      "type": "Date",
+      "min": "6/29/2015",
+      "max": "6/29/2016",
+      "format": "%-m/%-d/%Y",
+      "formula": ""
+    },
+    {
+      "name": "created_by",
+      "type": "Blank",
+      "formula": ""
+    },
+    {
+      "name": "updated",
+      "type": "Date",
+      "min": "6/29/2015",
+      "max": "6/29/2016",
+      "format": "%-m/%-d/%Y",
+      "formula": ""
+    },
+    {
+      "name": "updated_by",
+      "type": "Blank",
+      "formula": ""
+    }
+  ]
+}

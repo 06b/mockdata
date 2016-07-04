@@ -1,0 +1,18 @@
+
+curl "https://www.mockaroo.com/01afd050/download?count=1000&key=0d5140c0" > "data/address.csv"
+curl "https://www.mockaroo.com/0d881f80/download?count=1000&key=0d5140c0" > "data/api_key.csv"
+curl "https://www.mockaroo.com/8ad3f3c0/download?count=1000&key=0d5140c0" > "data/cart.csv"
+curl "https://www.mockaroo.com/b9f8b2e0/download?count=1000&key=0d5140c0" > "data/cart_line.csv"
+curl "https://www.mockaroo.com/34ce2d90/download?count=20&key=0d5140c0" > "data/category.csv"
+curl "https://www.mockaroo.com/bcbd2540/download?count=1000&key=0d5140c0" > "data/invoice.csv"
+curl "https://www.mockaroo.com/fcfd5590/download?count=1000&key=0d5140c0" > "data/orders.csv"
+curl "https://www.mockaroo.com/88acdb60/download?count=1000&key=0d5140c0" > "data/order_line.csv"
+curl "https://www.mockaroo.com/e8fbb5f0/download?count=1000&key=0d5140c0" > "data/photo.csv"
+curl "https://www.mockaroo.com/72e4e7e0/download?count=1000&key=0d5140c0" > "data/product_category.csv"
+curl "https://www.mockaroo.com/9ad51eb0/download?count=1000&key=0d5140c0" > "data/product_photo.csv"
+curl "https://www.mockaroo.com/797f9d90/download?count=1000&key=0d5140c0" > "data/product_review.csv"
+curl "https://www.mockaroo.com/ec9b5a90/download?count=1000&key=0d5140c0" > "product_availability.csv"
+curl "https://www.mockaroo.com/71474560/download?count=1000&key=0d5140c0" > "data/review.csv"
+curl "https://www.mockaroo.com/3862f470/download?count=1000&key=0d5140c0" > "data/user_review.csv"
+curl "https://www.mockaroo.com/d0549d70/download?count=1000&key=0d5140c0" > "data/users.csv"
+
