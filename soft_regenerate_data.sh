@@ -7,4 +7,5 @@ curl "https://www.mockaroo.com/9ad51eb0/download?count=1000&key=0d5140c0" > "dat
 curl "https://www.mockaroo.com/797f9d90/download?count=1000&key=0d5140c0" > "data/product_review.csv"
 curl "https://www.mockaroo.com/ec9b5a90/download?count=1000&key=0d5140c0" > "data/product_availability.csv"
 curl "https://www.mockaroo.com/3862f470/download?count=1000&key=0d5140c0" > "data/user_review.csv"
+curl "https://www.mockaroo.com/29512340/download?count=1000&key=0d5140c0" > "data/user_info.csv"
 

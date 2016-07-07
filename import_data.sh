@@ -75,3 +75,8 @@ FROM STDIN DELIMITER ',' CSV HEADER" < ./data/users.csv
 psql -e -U $USER -h $HOST -d $DB -c "COPY user_review(organization_id,user_id,review_id,created,created_by,updated,updated_by,active)
 FROM STDIN DELIMITER ',' CSV HEADER" < ./data/user_review.csv
 
+psql -e -U $USER -h $HOST -d $DB -c "COPY user_info(organization_id,user_id,address_id,current_location,displayname,photo_id,created,created_by,updated,updated_by,active)
+FROM STDIN DELIMITER ',' CSV HEADER" < ./data/user_info.csv
+
+
+
