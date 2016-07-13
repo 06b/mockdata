@@ -8,7 +8,7 @@ CREATE TABLE exchange_rate
   to_currency uuid,
   created timestamp with time zone NOT NULL DEFAULT now(),
   created_by uuid,
-  updated timestamp with time zone NOT NULL DEFAULT now(),
+  updated timestamp with time zone DEFAULT now(),
   updated_by uuid,
   priority double precision,
   info text,

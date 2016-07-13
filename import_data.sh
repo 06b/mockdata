@@ -30,6 +30,9 @@ psql -e -U $USER -h $HOST -d $DB -c "COPY currency(organization_id,currency_id,s
 FROM STDIN DELIMITER ',' CSV HEADER" < ./data/currency.csv
 
 
+psql -e -U $USER -h $HOST -d $DB -c "COPY exchange_rate(organization_id,exchange_rate_id,exchange_rate,from_currency,to_currency,created,created_by,updated,updated_by,active)
+FROM STDIN DELIMITER ',' CSV HEADER" < ./data/exchange_rate.csv
+
 psql -e -U $USER -h $HOST -d $DB -c "COPY invoice(organization_id,invoice_id,order_id,is_paid,created,created_by,updated,updated_by,active)
 FROM STDIN DELIMITER ',' CSV HEADER" < ./data/invoice.csv
 
